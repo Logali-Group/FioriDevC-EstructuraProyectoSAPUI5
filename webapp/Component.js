@@ -9,7 +9,7 @@ sap.ui.define([
 			metadata: {
 				manifest: "json"
 			},
-
+			
 			init: function () {
 				// call the init function of the parent
 				UIComponent.prototype.init.apply(this, arguments);
@@ -23,7 +23,6 @@ sap.ui.define([
 				});
 				this.setModel(i18nModel, "i18n");
 			}
-
 		});
 	}
 

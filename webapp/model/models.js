@@ -13,7 +13,6 @@ sap.ui.define([
 			};
 			return new JSONModel(oData); 
 		}
-
 	};
 
 });
