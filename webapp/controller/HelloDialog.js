@@ -37,6 +37,5 @@ sap.ui.define([
 				oView.byId("helloDialog").open();
 			}
 		}
-
 	});
 });

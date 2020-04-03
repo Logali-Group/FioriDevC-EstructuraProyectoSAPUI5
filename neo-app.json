@@ -8,6 +8,7 @@
         "name": "sapui5",
         "entryPath": "/resources"
       },
+      
       "description": "SAPUI5 Resources"
     },
     {
