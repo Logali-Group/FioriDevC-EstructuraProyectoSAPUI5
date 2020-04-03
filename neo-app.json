@@ -8,7 +8,6 @@
         "name": "sapui5",
         "entryPath": "/resources"
       },
-      
       "description": "SAPUI5 Resources"
     },
     {
@@ -19,6 +18,14 @@
         "entryPath": "/test-resources"
       },
       "description": "SAPUI5 Test Resources"
+    },
+    {
+      "path": "/northwind",
+      "target": {
+        "type": "destination",
+        "name": "northwind"
+      },
+      "description": "Northwind OData Service"
     }
   ]
 }

@@ -13,6 +13,7 @@ sap.ui.define([
 				currency: "EUR"
 			});
 			this.getView().setModel(oViewModel, "view");
+			
 		},
 
 		onFilterInvoices: function (oEvent) {
