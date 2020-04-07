@@ -12,6 +12,7 @@ sap.ui.define([
 		exit: function () {
 			delete this._oView;
 		},
+		
 		open: function () {
 
 			var oView = this._oView;

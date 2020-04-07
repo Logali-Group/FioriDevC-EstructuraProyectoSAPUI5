@@ -7,6 +7,7 @@ sap.ui.define([
 ], function (Controller, JSONModel, formatter, Filter, FilterOperator) {
 
 	return Controller.extend("logaligroup.SAPUI5.controller.InvoiceList", {
+		
 		formatter: formatter,
 		onInit: function () {
 			var oViewModel = new JSONModel({

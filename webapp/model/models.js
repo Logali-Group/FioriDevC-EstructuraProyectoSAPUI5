@@ -4,6 +4,7 @@ sap.ui.define([
 	"use strict";
 
 	return {
+		
 		createRecipient: function () {
 			var oData = {
 				recipient: {

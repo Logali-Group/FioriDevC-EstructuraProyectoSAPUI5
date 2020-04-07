@@ -9,6 +9,7 @@
 
  		onInit: function () {
  		},
+ 		
  		onShowHello: function () {
 
  			// read text from i18n / model

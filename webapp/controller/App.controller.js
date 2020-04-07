@@ -9,6 +9,7 @@ sap.ui.define([
 	    onInit: function () {
 	    	
 		}, 
+		
 		onOpenHeader: function() {
 			this.getOwnerComponent().openHelloDialog(); 
 		}
