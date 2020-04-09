@@ -8,6 +8,7 @@
  	return Controller.extend("logaligroup.SAPUI5.controller.HelloPanel", {
 
  		onInit: function () {
+ 			
  		},
  		
  		onShowHello: function () {

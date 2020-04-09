@@ -12,7 +12,8 @@
 					<PropertyRef Name="ShippedDate"/>
 					<PropertyRef Name="Status"/>
 				</Key>
-				<Property Name="ProductName" Type="Edm.String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false"/>
+				<Property Name="ProductName" Type="Edm.String" Nullable="false" MaxLength="40" 
+				Unicode="true" FixedLength="false"/>
 				<Property Name="Quantity" Type="Edm.Int16" Nullable="false"/>
 				<Property Name="ExtendedPrice" Type="Edm.Decimal" Nullable="true" Precision="19" Scale="4"/>
 				<Property Name="ShipperName" Type="Edm.String" Nullable="false" MaxLength="40" Unicode="true" FixedLength="false"/>
