@@ -3,7 +3,8 @@
 		<Schema xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices"
 			xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://schemas.microsoft.com/ado/2008/09/edm"
 			Namespace="NorthwindModel">
-			<EntityType Name="Invoice">
+			<EntityType 
+			Name="Invoice">
 				<Key>
 					<PropertyRef Name="ProductName"/>
 					<PropertyRef Name="Quantity"/>

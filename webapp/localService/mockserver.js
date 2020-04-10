@@ -10,6 +10,7 @@ sap.ui.define([
 					/* eslint-disable sap-no-hardcoded-url */
 					rootUri: "https://services.odata.org/V2/Northwind/Northwind.svc/"
 				});
+		
 				
 				//delay 
 				var oUriParameters = UriParameters.fromQuery(window.location.search);

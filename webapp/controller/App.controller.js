@@ -7,6 +7,7 @@ sap.ui.define([
 	return Controller.extend("logaligroup.SAPUI5.controller.App", {
 
 	    onInit: function () {
+	    	
 		}, 
 		
 		onOpenHeader: function() {

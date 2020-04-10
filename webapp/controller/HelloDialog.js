@@ -7,7 +7,6 @@ sap.ui.define([
 
 		constructor: function (oView) {
 			this._oView = oView;
-			
 		},
 
 		exit: function () {

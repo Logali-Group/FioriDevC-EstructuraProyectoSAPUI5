@@ -12,7 +12,9 @@ sap.ui.define([
 		}, 
 		
 		afterEach: function() {
+			
 			this._oResourceModel.destroy();
+			
 		}
 			
 		});

@@ -7,6 +7,7 @@ sap.ui.define([
 	QUnit.module("Navigation");
 
 	opaTest("Should open the Hello Dialog", function (Given, When, Then) {
+	
 		//initialize the mock server
 		mockserver.init();
 
