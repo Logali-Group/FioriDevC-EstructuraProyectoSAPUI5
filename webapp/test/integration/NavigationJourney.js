@@ -10,7 +10,6 @@ sap.ui.define([
 	
 		//initialize the mock server
 		mockserver.init();
-
 		//Arrangements
 		Given.iStartMyUIComponent({
 			componentConfig: {

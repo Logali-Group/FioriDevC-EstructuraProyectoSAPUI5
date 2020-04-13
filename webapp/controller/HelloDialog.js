@@ -6,7 +6,9 @@ sap.ui.define([
 	return ManagedObject.extend("logaligroup.SAPUI5.controller.HelloDialog", {
 
 		constructor: function (oView) {
+			
 			this._oView = oView;
+			
 		},
 
 		exit: function () {

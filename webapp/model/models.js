@@ -10,7 +10,6 @@ sap.ui.define([
 					name: "Word"
 				}
 			};
-			
 			return new JSONModel(oData); 
 		}
 	};

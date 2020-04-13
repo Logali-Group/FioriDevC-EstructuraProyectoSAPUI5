@@ -11,7 +11,6 @@ sap.ui.define([
 					rootUri: "https://services.odata.org/V2/Northwind/Northwind.svc/"
 				});
 		
-				
 				//delay 
 				var oUriParameters = UriParameters.fromQuery(window.location.search);
 				

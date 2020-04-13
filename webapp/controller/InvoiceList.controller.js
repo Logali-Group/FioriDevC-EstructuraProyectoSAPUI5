@@ -9,6 +9,7 @@ sap.ui.define([
 	return Controller.extend("logaligroup.SAPUI5.controller.InvoiceList", {
 		
 		formatter: formatter,
+		
 		onInit: function () {
 			var oViewModel = new JSONModel({
 				currency: "EUR"

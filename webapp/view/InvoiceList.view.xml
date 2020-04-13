@@ -26,11 +26,13 @@
 				numberState="{= ${invoiceWz>ExtendedPrice} > 50 ? 'Error' : 'Success' }"
 				type="Navigation"
 				press="onPress">
+				
 				<firstStatus>
 					<ObjectStatus text="{
 					     path: 'invoiceWz>Status',
 					     formatter: '.formatter.statusText'
 					}"/>
+					
 				</firstStatus>
 			</ObjectListItem>
 		</items>

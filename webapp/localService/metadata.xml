@@ -5,8 +5,7 @@
 			Namespace="NorthwindModel">
 			<EntityType Name="Category">
 				<Key>
-					<PropertyRef 
-					Name="CategoryID"/>
+					<PropertyRef Name="CategoryID"/>
 				</Key>
 				<Property xmlns:p8="http://schemas.microsoft.com/ado/2009/02/edm/annotation" Name="CategoryID" Type="Edm.Int32" Nullable="false" p8:StoreGeneratedPattern="Identity"/>
 				<Property Name="CategoryName" Type="Edm.String" Nullable="false" MaxLength="15" Unicode="true" FixedLength="false"/>
