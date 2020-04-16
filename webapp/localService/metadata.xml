@@ -1,8 +1,7 @@
 <edmx:Edmx xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx" Version="1.0">
 	<edmx:DataServices xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" m:DataServiceVersion="1.0">
 		<Schema xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices"
-			xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://schemas.microsoft.com/ado/2008/09/edm"
-			Namespace="NorthwindModel">
+			xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata" xmlns="http://schemas.microsoft.com/ado/2008/09/edm" Namespace="NorthwindModel">
 			<EntityType Name="Category">
 				<Key>
 					<PropertyRef Name="CategoryID"/>

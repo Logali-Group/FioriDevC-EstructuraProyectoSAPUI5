@@ -1,4 +1,5 @@
 sap.ui.define([
+
 	"sap/ui/core/mvc/Controller",
 	"sap/m/MessageToast"
 ], function (Controller, MessageToast) {
@@ -6,11 +7,12 @@ sap.ui.define([
 
 	return Controller.extend("logaligroup.SAPUI5.controller.App", {
 
-	    onInit: function () {
-		}, 
-		
-		onOpenHeader: function() {
-			this.getOwnerComponent().openHelloDialog(); 
+		onInit: function () {
+			this.getView().addStyleClass(this.getOwnerComponent().getContentDensityClass());
+		},
+
+		onOpenHeader: function () {
+			this.getOwnerComponent().openHelloDialog();
 		}
 	});
 });
